@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+
+  <style>
+    body:hover> :not(:hover) {
+      opacity: .4;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    div[class^=item] {
+      background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+      background-color: #2dabf9;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 15px;
+      padding: 27px 23px;
+      text-decoration: none;
+      transition: 3s;
+    }
+    
+  </style>
+
+  <div class="item1">item 1</div>
+  <div class="item2">item 2</div>
+  <div class="item3">item 3</div>
+  <div class="item4">item 4</div>
+  
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
